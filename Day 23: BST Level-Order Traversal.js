@@ -6,4 +6,4 @@ let queue = [root];
         if (node.left) queue.push(node.left);
         if (node.right) queue.push(node.right);
     }
-    return result;
+    console.log(result.join(" "));
